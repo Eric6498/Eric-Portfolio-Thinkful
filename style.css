@@ -1,0 +1,85 @@
+/*styling header*/
+header{
+  background-color: rgb(24, 28, 83); 	
+	color: snow;
+	text-align: center; 
+	font-family: Futura;
+  margin-top: 20px;
+	padding-top: 50px;
+	padding-bottom: 80px;
+	border-top-right-radius: 100px 100px;
+	border-bottom-left-radius: 100px 100px; 
+	border-bottom-right-radius: 100px 100px;
+	border-top-left-radius: 100px 100px;
+}
+/* Email Links */
+a[href="mailto:"] {
+    text-decoration: none;
+}
+/*incresing the font size*/
+header h1 {
+font-size: 68px;	
+}
+/*incresing the font size*/
+header h2 {
+	 font-size: 30px;
+}
+/* Copntainer to have text inside an image*/
+.container {
+  position: relative;
+  text-align: center;
+ } 
+/*class for center*/
+.center {
+  position: absolute;
+  color: rgb(24, 28, 83);
+	font-size: 30px;
+  top: 60px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*styled links pseudo classes for "Contact Me!"*/
+a {
+  font-family: arial, sans-serif;
+  font-size: 20px;
+}
+/*hover code*/
+a:link    { color: rgb(19, 19, 133);}
+a:visited { color: darkcyan;}
+a:hover   { color: purple;}
+a:active  { color: lightcoral;}
+
+/*setting font*/
+p {
+	font-family: Arial, sans-serif;
+}
+
+/*rounding the corner of the border*/
+.rounded {
+	border-top-right-radius: 100px 100px;
+	border-bottom-left-radius: 100px 100px;	
+	border-bottom-right-radius: 100px 100px;
+	border-top-left-radius: 100px 100px;
+}
+
+.centerText {
+  text-align: center;
+
+}
+
+/*to narrow my page and give it some color*/
+.box {
+  margin-right: 100px ;
+	margin-left: 100px ;
+	background-color: rgb(132, 190, 245);
+}
+
+/* height rule*/
+hr {
+  width: 420px;
+	height: 32px;
+	border: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+	background-image: url("img/divider.png");
+}
